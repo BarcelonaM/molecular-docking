@@ -31,9 +31,12 @@ The PDBbind dataset and CASF-2016 benchmark are available at http://www.pdbbind.
 The PDBbind-CrossDocked-Core dataset can be found at https://zenodo.org/record/5525936. 
 The DUD-E and Dekois2.0 are available at https://dude.docking.org and http://www.dekois.com, respectively.
 # Getting Started 
-scripts/train_model.py  # training InterFocusGT
+scripts/train_model.py  # training InterFocusGT 
+
 scripts/train_model_gcn.py # training InterFocusGCN
+
 InterFocusGT/feats/mol2graph_rdmda_res.py # graph representation features encompass the construction of a protein graph, a ligand graph, and an interface graph.
+
 saved_model/InterFocusGT.pth # trained model for InterFocusGT 
 
 
